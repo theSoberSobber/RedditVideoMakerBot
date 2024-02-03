@@ -1,6 +1,11 @@
 # Reddit Video Maker Bot 🎥
-Make sure you're on windows, I'll removed any and everything not Windows related in this fork.
-You need to keep clicking retry on the reddit site in the screenshot phase or it will timeout playwright.
+- THIS FORK IS NOT INTENDED FOR CONTRIBUTING TO UPSTREAM, THESE ARE MY MODIFICATIONS AND PROBABLY WON'T WORK FOR ANYONE ELSE
+- Make sure you're on windows, I'll remove any and everything not Windows related in this fork.
+- You need to keep clicking retry on the reddit site in the screenshot phase or it will timeout playwright.
+
+# Todo - 
+- make it read the post like for r/aita, config for that
+- remove unnecessary tts crap and just use googlertranslte or pyttsx with male heavy voice
 
 ## Installation 👩‍💻
 
