@@ -75,8 +75,9 @@ def get_screenshots_of_reddit_posts(reddit_object: dict, screenshot_num: int):
         print_substep("Launching Headless Browser...")
 
         browser = p.chromium.launch(
-            headless=True
-        )  # headless=False will show the browser for debugging purposes
+            headless=False
+        )  # Reddit is very strict on scraping these days and will throw a "An error occured, just don't panic" 
+        # as soon as you try to scrape anything, let alone make a 1000 reqs for comments alone
         # Device scale factor (or dsf for short) allows us to increase the resolution of the screenshots
         # When the dsf is 1, the width of the screenshot is 600 pixels
         # so we need a dsf such that the width of the screenshot is greater than the final resolution of the video
